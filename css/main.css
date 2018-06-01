@@ -423,6 +423,13 @@ footer p {
     background-position: 50% bottom;
     background-repeat: no-repeat;
 }
+.bg_people{
+    min-width: 400px;
+    min-height: 240px;
+    background-image: url(/img/bg_people.png);
+    background-position: 50% bottom;
+    background-repeat: no-repeat;
+}
 
 .m_i{
     width: 100%;
@@ -438,6 +445,7 @@ iframe{
     margin-bottom: 50px;
 }
 
+a:active, a:focus { outline: none; }
 @media (max-width: 991px){
     #img_rotate{
         display: none;
@@ -474,4 +482,34 @@ a.button6:active {
   top: 1px;
   color: #ffdead;
   box-shadow: inset #ebab00 0 -1px 1px, inset 0 1px 1px #ffbf00, #cc7722 0 0 0 1px, 0 10px 10px -9px #000;
+}
+
+.fan:after {
+    width: 80px;
+    height: 80px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -34px;
+    margin-top: -44px;
+    background: url(/img/player_play.png) no-repeat;
+    content: "";
+    opacity: .9;
+    background-size: cover;
+}
+.fan_wrap {
+    position: relative;
+    cursor: pointer;
+}
+.video_about{
+    position: absolute;
+}
+.video_header {
+    font-family: 'Acrom', sans-serif;
+    font-size: 28px;
+    color: #e9cd86;
+    margin: 0 0 0 20px;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px black;
 }
